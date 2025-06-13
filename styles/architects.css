@@ -74,10 +74,14 @@ header{
 .navbar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-left: 228px;
     margin-right: 240px;
     margin-bottom: 116px;
 
+}
+.nav-title{
+    font-size: 3rem;
 }
 
 .navbar-items {
@@ -87,20 +91,36 @@ header{
 
 .item {
     list-style: none;
+    font-size: 1.125rem;
 }
-
-nav ul li> a {
+ nav ul li  a {
     text-decoration: none;
-}
-
-.banner-content{
-    max-width: 862px;
     
+}
+.banner-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .banner-title{
     text-align: center;
 }
 .banner-description{
     text-align: center;
+    margin-top: 24px;
+    margin-bottom: 32px;
 
+}
+
+.banner-content-place{
+    max-width:862px ;
+    text-align: center;
+}
+.image{
+    max-width: 1440px;
+    margin-top: 48px;
+    margin-bottom: 72px;
+    margin-left: 200px;
+    margin-right: 200px;
+    width: 100%;
 }
