@@ -36,7 +36,7 @@
 }
 
 .accent {
-    background-color: #FF900E;
+    color: #FF900E;
 }
 
 .dark-01 {
@@ -65,6 +65,11 @@
 
 }
 
+/* Display Styles */
+.display-flex{
+    display: flex;
+}
+
 
 /* Header Styles */
 header{
@@ -77,11 +82,11 @@ header{
     align-items: center;
     margin-left: 228px;
     margin-right: 240px;
-    margin-bottom: 116px;
+    margin-bottom: 0px;
 
 }
 .nav-title{
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .navbar-items {
@@ -97,18 +102,22 @@ header{
     text-decoration: none;
     
 }
+
 .banner-content{
     display: flex;
     justify-content: center;
     align-items: center;
+    
+     
 }
 .banner-title{
     text-align: center;
+    font-size: 4rem;
 }
 .banner-description{
     text-align: center;
-    margin-top: 24px;
-    margin-bottom: 32px;
+    margin-top: 16px;
+    margin-bottom: 24px;
 
 }
 
@@ -124,3 +133,39 @@ header{
     margin-right: 200px;
     width: 100%;
 }
+
+
+/* teams and features */
+main{
+    max-width: 1440px;
+}
+.features{
+    max-width: 537px;
+    margin-left: 72px;
+}
+.feature-title{
+    font-size: 3rem;
+    
+}
+.features-description{
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.teams-features{
+    margin-left: 301px;
+    margin-right: 301px;
+    align-items: center;
+    width: 100%;
+    margin-top: 88px;
+    margin-bottom: 128px;
+    
+   
+}
+.images-container{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+
+}
+ 
