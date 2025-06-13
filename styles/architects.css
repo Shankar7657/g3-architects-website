@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-.work-sans-fonts> {
-  font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+
+.work-sans-fonts {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
 
@@ -12,36 +13,94 @@
 
 
 /* Font weight */
-.bold{
+.bold {
     font-weight: bold;
 
 }
-.semi-bold{
+
+.semi-bold {
     font-weight: 600;
 }
-.medium{
+
+.medium {
     font-weight: 500;
 }
 
 /* Colors */
-.bg{
-    background-color:rgba(255, 144, 14, 0.10) ;
+.bg {
+    background-color: rgba(255, 144, 14, 0.10);
 }
-.bg-minimal{
+
+.bg-minimal {
     background-color: #FFF4E7;
 }
 
-.accent{
-   color: #FF900E;  
+.accent {
+    background-color: #FF900E;
 }
 
-.dark-01{
+.dark-01 {
     color: #131313;
 }
-.dark-02{
-   color: #424242; 
+
+.dark-02 {
+    color: #424242;
 }
-.dark-03{
+
+.dark-03 {
     color: #727272;
 }
 
+.cta{
+    font-size: 1.25rem;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    
+
+}
+
+
+/* Header Styles */
+header{
+    max-width: 1920px;
+
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 228px;
+    margin-right: 240px;
+    margin-bottom: 116px;
+
+}
+
+.navbar-items {
+    display: flex;
+    gap: 72px;
+}
+
+.item {
+    list-style: none;
+}
+
+nav ul li> a {
+    text-decoration: none;
+}
+
+.banner-content{
+    max-width: 862px;
+    
+}
+.banner-title{
+    text-align: center;
+}
+.banner-description{
+    text-align: center;
+
+}
