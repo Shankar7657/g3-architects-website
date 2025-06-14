@@ -10,8 +10,26 @@
 
 
 /* Shared Styles */
+/* font-size */
+.font-3{
+    font-size: 3rem;
 
+}
+.font-2{
+    font-size: 2rem;
 
+}
+.font-2half{
+    font-size: 2.5rem;
+}
+
+.font-1fourth{
+
+    font-size: 1.25rem;
+}
+.font-1half{
+    font-size: 24px;
+}
 /* Font weight */
 .bold {
     font-weight: bold;
@@ -185,14 +203,15 @@ main {
 
 
 /* .two-part { */
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+display: grid;
+grid-template-columns: repeat(2, 1fr);
 
 
 
 
 }
-.two-part{
+
+.two-part {
     margin-left: 240px;
     margin-right: 240px;
     justify-content: center;
@@ -214,24 +233,44 @@ main {
 }
 
 /* Third section-Some Facts */
-.facts{
-    gap: 120px  ;
-    justify-content: center;
+.facts {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: calc(8*15px);
+    margin-left: 288px;
+    margin-right: 288px;
+    margin-top: 96px;
+ 
+
+
+
 }
 
-.fact{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.fact {
+    border: 1px solid #FF900E;
     border-radius: 8px;
-   background-color: #FF900E;
-}
-
-.fact-elements{
     padding-left: 32px;
     padding-right: 32px;
     padding-top: 40px;
     padding-bottom: 40px;
-    justify-content: center;
-    align-items: center;
+    width: 242px;
+    height: 242px;
+    text-align: center;
+
+
+}
+
+
+.number {
+    font-size: 3rem;
+}
+
+.validation {
+    font: size 1.5rem;
+    ;
+}
+
+.title{
+    margin-bottom: 24px ;
+    margin-top: 128px;
 }
