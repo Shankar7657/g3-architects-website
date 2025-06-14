@@ -51,7 +51,7 @@
     color: #727272;
 }
 
-.cta{
+.cta {
     font-size: 1.25rem;
     background-color: #FF900E;
     border: none;
@@ -61,21 +61,22 @@
     padding-top: 20px;
     padding-bottom: 20px;
     color: white;
-    
+
 
 }
 
 /* Display Styles */
-.display-flex{
+.display-flex {
     display: flex;
 }
 
 
 /* Header Styles */
-header{
+header {
     max-width: 1920px;
 
 }
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -85,7 +86,8 @@ header{
     margin-bottom: 0px;
 
 }
-.nav-title{
+
+.nav-title {
     font-size: 2rem;
 }
 
@@ -98,34 +100,38 @@ header{
     list-style: none;
     font-size: 1.125rem;
 }
- nav ul li  a {
+
+nav ul li a {
     text-decoration: none;
-    
+
 }
 
-.banner-content{
+.banner-content {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-     
+
+
 }
-.banner-title{
+
+.banner-title {
     text-align: center;
     font-size: 4rem;
 }
-.banner-description{
+
+.banner-description {
     text-align: center;
     margin-top: 16px;
     margin-bottom: 24px;
 
 }
 
-.banner-content-place{
-    max-width:862px ;
+.banner-content-place {
+    max-width: 862px;
     text-align: center;
 }
-.image{
+
+.image {
     max-width: 1440px;
     margin-top: 48px;
     margin-bottom: 72px;
@@ -135,37 +141,69 @@ header{
 }
 
 
-/* teams and features */
-main{
+/* Fist section-teams and features */
+main {
     max-width: 1440px;
 }
-.features{
+
+.features {
     max-width: 537px;
     margin-left: 72px;
 }
-.feature-title{
+
+.feature-title {
     font-size: 3rem;
-    
+
 }
-.features-description{
+
+.features-description {
     margin-top: 24px;
     margin-bottom: 32px;
 }
-.teams-features{
+
+.teams-features {
     margin-left: 301px;
     margin-right: 301px;
     align-items: center;
     width: 100%;
     margin-top: 88px;
     margin-bottom: 128px;
-    
-   
+
+
 }
-.images-container{
-    
+
+.images-container {
+
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
 
 }
- 
+
+
+/* second section-features details */
+
+
+.two-part {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+
+
+
+}
+
+.features-details {
+    margin-top: 144px;
+
+}
+
+.text {
+    max-width: 586px;
+    margin-left: 240px;
+    margin-right: 56px;
+}
+
+.features-image {
+    max-width: 800px;
+}
