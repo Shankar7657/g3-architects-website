@@ -184,13 +184,18 @@ main {
 /* second section-features details */
 
 
-.two-part {
+/* .two-part { */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 
 
 
 
+}
+.two-part{
+    margin-left: 240px;
+    margin-right: 240px;
+    justify-content: center;
 }
 
 .features-details {
@@ -206,4 +211,27 @@ main {
 
 .features-image {
     max-width: 800px;
+}
+
+/* Third section-Some Facts */
+.facts{
+    gap: 120px  ;
+    justify-content: center;
+}
+
+.fact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+   background-color: #FF900E;
+}
+
+.fact-elements{
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: center;
+    align-items: center;
 }
