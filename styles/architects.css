@@ -11,25 +11,29 @@
 
 /* Shared Styles */
 /* font-size */
-.font-3{
+.font-3 {
     font-size: 3rem;
 
 }
-.font-2{
+
+.font-2 {
     font-size: 2rem;
 
 }
-.font-2half{
+
+.font-2half {
     font-size: 2.5rem;
 }
 
-.font-1fourth{
+.font-1fourth {
 
     font-size: 1.25rem;
 }
-.font-1half{
+
+.font-1half {
     font-size: 24px;
 }
+
 /* Font weight */
 .bold {
     font-weight: bold;
@@ -162,6 +166,7 @@ nav ul li a {
 /* Fist section-teams and features */
 main {
     max-width: 1440px;
+
 }
 
 .features {
@@ -199,78 +204,96 @@ main {
 }
 
 
-/* second section-features details */
+/* Second section-features details */
+.text {
+    margin-left: 240px;
+}
 
-
-/* .two-part { */
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-
-
-
-
+.image-archi {
+    width: 100%;
 }
 
 .two-part {
-    margin-left: 240px;
-    margin-right: 240px;
-    justify-content: center;
-}
-
-.features-details {
-    margin-top: 144px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 144px;
 
 }
 
-.text {
-    max-width: 586px;
-    margin-left: 240px;
-    margin-right: 56px;
+.experience-time {
+    width: 342px;
+    /* height: 200px; */
+    text-align: center;
+    padding: 48px 40px 48px 40px;
+    margin-left: 912px;
+    margin-top: -200px;
 }
 
-.features-image {
-    max-width: 800px;
+.ten-plus {
+    font-size: 4rem;
+
+
 }
 
 /* Third section-Some Facts */
-.facts {
+.facts-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: calc(8*15px);
-    margin-left: 288px;
-    margin-right: 288px;
-    margin-top: 96px;
- 
-
-
-
+    /* gap: 120px; */
 }
 
-.fact {
+.fact-card {
     border: 1px solid #FF900E;
     border-radius: 8px;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    width: 242px;
-    height: 242px;
+    width: 240px;
+    height: 240px;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-
-
+    /* margin-right: 120px; */
 }
 
-
-.number {
+.fact-number {
     font-size: 3rem;
+    margin-top: 8px;
+    margin-bottom: 4px;
 }
 
-.validation {
-    font: size 1.5rem;
-    ;
+.fact-elements {
+    padding: 48px 40px 48px 40px;
 }
 
-.title{
-    margin-bottom: 24px ;
-    margin-top: 128px;
+/* Sponsors section */
+.sponsors-info {
+    max-width: 542px;
+    text-align: center;
+    margin: 0 auto;
+
 }
+
+.sponsors-title,
+.bold {
+    margin-bottom: 24px;
+    font-size: 3rem;
+
+}
+
+.sponsors-company {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* gap: 160px; */
+
+}
+
+.sponsors-name {
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    /* gap: 160px; */
+}
+
+/* .spotify{ */
+margin-right: 160px;
+}
+
+/* Footer */
