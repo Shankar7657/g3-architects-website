@@ -164,8 +164,8 @@ nav ul li a {
 
 
 /* Fist section-teams and features */
-main {
-    max-width: 1440px;
+/* main { */
+max-width: 1440px;
 
 }
 
@@ -243,7 +243,7 @@ main {
 }
 
 .fact-card {
-    border: 1px solid #FF900E;
+    border: 2px solid #FF900E;
     border-radius: 8px;
     width: 240px;
     height: 240px;
@@ -264,10 +264,23 @@ main {
 }
 
 /* Sponsors section */
+.our-sponsors{
+    /* margin-top: 1284px; */
+    /* margin-bottom: 18px; */
+}
+.sponsors-info{
+    margin-top: 184px;
+}
+.sponsors-description {
+    margin-top: 24px;
+
+}
 .sponsors-info {
     max-width: 542px;
     text-align: center;
     margin: 0 auto;
+
+
 
 }
 
@@ -281,19 +294,28 @@ main {
 .sponsors-company {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    /* gap: 160px; */
 
 }
 
 .sponsors-name {
-    display: flex;
-    justify-content:space-between;
-    align-items:center;
-    /* gap: 160px; */
-}
-
-/* .spotify{ */
-margin-right: 160px;
+    gap: 72px   ;
+    margin: 48px 240px 128px 240px;
+    max-width: 1440px;
+    filter:grayscale(100%)
 }
 
 /* Footer */
+footer{
+    max-width: 1440px;
+    margin: 0 auto;
+   
+}
+.copyrights{
+}
+.copyrights-text, .dark-02{
+    text-align: center;
+    padding: 48px 400px 48px 400px;
+}
+.bg-minimal{
+    opacity: 0.7;
+}
